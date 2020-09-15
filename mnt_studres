@@ -1,0 +1,3 @@
+#!/bin/sh
+sudo mkdir -p /mnt/studres
+sudo sshfs -o allow_other of9@of9.host.cs.st-andrews.ac.uk:/cs/studres /mnt/studres

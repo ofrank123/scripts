@@ -1,0 +1,5 @@
+#!/bin/bash
+xrandr --output DP1 --auto --right-of eDP1
+~/Scripts/fehbg.sh
+~/Scripts/launch_polybar.sh
+~/Scripts/picom.sh
