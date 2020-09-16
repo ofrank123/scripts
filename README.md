@@ -2,7 +2,7 @@
 
 mnt_studres: mount the St. Andrews student resources so I can use the tests  
 Some notes because I assume other people will use this one:  
-1. It only works on *nix systems.  Linux, OSX, and WSfL should work fine.
+1. It only works on *nix systems.  Linux, OSX, and WSfL should work fine.  You will need `sshfs` and `stacscheck` installed
 2. First enter your sudo/administrator password, this is required to access the /mnt directory.  You can read the script if you don't trust me (it's 3 lines)
 3. Enter your St. Andrews CS username (e.g. `of9`)
 4. Enter your St. Andrews CS password
