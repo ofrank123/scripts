@@ -3,4 +3,4 @@ sudo mkdir -p /mnt/studres
 
 read -p "St. Andrews username: " user
 
-sudo sshfs -o allow_other $user@$user.host.cs.st-andrews.ac.uk:/cs/studres /mnt/studres
+sudo sshfs -o allow_other $user@trenco.cs.st-andrews.ac.uk:/cs/studres /mnt/studres
